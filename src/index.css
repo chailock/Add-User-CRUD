@@ -1,0 +1,76 @@
+
+
+.navbar {
+  padding: 10px 0; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem; 
+}
+
+.btn-outline-light {
+  margin-left: 10px; 
+}
+
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem; 
+  }
+
+  .btn-outline-light {
+    margin-left: 0; 
+    margin-top: 10px; 
+  }
+}
+
+
+/* home style */
+
+/* styles.css */
+
+.container {
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Add border between rows */
+}
+
+.table th {
+  background-color: #f2f2f2; /* Add background color to header */
+}
+
+.btn {
+  padding: 8px 12px;
+  margin: 4px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+
+  .btn {
+    font-size: 12px; /* Adjust font size for buttons on smaller screens */
+    padding: 6px 8px; /* Adjust padding for buttons on smaller screens */
+  }
+
+  .container {
+    margin-top: 10px; /* Adjust top margin for spacing on smaller screens */
+  }
+  }
+}
+
